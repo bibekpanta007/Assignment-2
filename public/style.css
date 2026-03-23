@@ -1,0 +1,44 @@
+/* general page styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f7f7f7;
+  color: #333;
+}
+
+/* main heading spacing */
+h1 {
+  margin-top: 20px;
+}
+
+/* weather & currency boxes */
+#weather, #currency {
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* form elements styling */
+input, select, button {
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+/* button styling */
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
