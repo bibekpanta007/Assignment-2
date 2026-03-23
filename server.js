@@ -3,7 +3,7 @@
 require('dotenv').config();
 
 const express = require('express');
-// Use the built-in fetch available in Node 18+ (or globalThis.fetch)
+
 const fetch = globalThis.fetch;
 
 const app = express();
